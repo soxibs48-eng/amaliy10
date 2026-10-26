@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" fill="none">
+  <defs>
+    <linearGradient id="bgElena" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A2F"/>
+      <stop offset="100%" stop-color="#0F241C"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="480" fill="url(#bgElena)"/>
+  <!-- Botanical leaf silhouettes in background -->
+  <ellipse cx="60" cy="120" rx="40" ry="80" fill="#142B23" transform="rotate(-25 60 120)"/>
+  <ellipse cx="340" cy="150" rx="45" ry="90" fill="#142B23" transform="rotate(30 340 150)"/>
+  <!-- Figure: Elena in outdoor gear -->
+  <path d="M100,480 L100,350 Q100,300 160,285 L240,285 Q300,300 300,350 L300,480 Z" fill="#2E4035"/>
+  <path d="M175,285 L175,225 L225,225 L225,285 Z" fill="#E6A885"/>
+  <ellipse cx="200" cy="175" rx="50" ry="62" fill="#F8C2A0"/>
+  <!-- Flowing Long Dark Hair -->
+  <path d="M135,170 C130,90 170,85 200,85 C230,85 270,90 265,170 C275,230 280,310 270,360 C250,330 255,240 255,190 C240,110 160,110 145,190 C145,240 150,330 130,360 C120,310 125,230 135,170 Z" fill="#1C1412"/>
+  <!-- Camera Strap -->
+  <line x1="140" y1="300" x2="260" y2="440" stroke="#000000" stroke-width="8" opacity="0.6"/>
+</svg>

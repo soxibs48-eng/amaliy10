@@ -1,0 +1,21 @@
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Editor & IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python inspection scripts & scratch
+__pycache__/
+*.pyc
+embed.html
+nt_thumb.png
+slice_*.png
+slice_thumb.py
+parse_embed.py
+generate_assets.py
+
+# Vercel
+.vercel

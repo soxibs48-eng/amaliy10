@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" preserveAspectRatio="xMidYMid slice" fill="none">
+  <defs>
+    <linearGradient id="auroraSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020610"/>
+      <stop offset="100%" stop-color="#061A28"/>
+    </linearGradient>
+    <linearGradient id="auroraRibbon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#22D3EE" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#34D399" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#6EE7B7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="480" fill="url(#auroraSky)"/>
+  <!-- Wavy Aurora Ribbon -->
+  <path d="M-50,160 C120,60 280,220 450,110 C530,60 580,90 650,140 L650,260 C550,190 420,280 260,180 C120,290 40,220 -50,240 Z" fill="url(#auroraRibbon)"/>
+  <!-- Fjord Mountain Silhouettes -->
+  <polygon points="0,480 60,330 150,370 240,310 330,480" fill="#040912"/>
+  <polygon points="270,480 390,340 480,390 560,320 600,360 600,480" fill="#040912"/>
+  <!-- Water Reflection -->
+  <rect y="410" width="600" height="70" fill="#030811"/>
+  <ellipse cx="300" cy="440" rx="180" ry="15" fill="#22D3EE" opacity="0.25"/>
+</svg>

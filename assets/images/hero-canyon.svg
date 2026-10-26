@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 680" preserveAspectRatio="xMidYMid slice" fill="none">
+  <defs>
+    <!-- Sky Gradient -->
+    <linearGradient id="skyGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#040814"/>
+      <stop offset="35%" stop-color="#0A1428"/>
+      <stop offset="65%" stop-color="#112544"/>
+      <stop offset="85%" stop-color="#1B3B6F"/>
+      <stop offset="100%" stop-color="#2D4D7A"/>
+    </linearGradient>
+
+    <!-- Horizon Twilight Glow -->
+    <linearGradient id="twilightGlow" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.35"/>
+      <stop offset="30%" stop-color="#818CF8" stop-opacity="0.2"/>
+      <stop offset="70%" stop-color="#C084FC" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#040814" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Distant Ridge Gradient -->
+    <linearGradient id="distantRidgeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E3250"/>
+      <stop offset="100%" stop-color="#0F1B2E"/>
+    </linearGradient>
+
+    <!-- Main Butte Gradient Left -->
+    <linearGradient id="butteGradLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2B3E5C"/>
+      <stop offset="40%" stop-color="#18273E"/>
+      <stop offset="100%" stop-color="#0B1320"/>
+    </linearGradient>
+
+    <!-- Center Butte Gradient -->
+    <linearGradient id="centerButteGrad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#23354E"/>
+      <stop offset="50%" stop-color="#142033"/>
+      <stop offset="100%" stop-color="#090E17"/>
+    </linearGradient>
+
+    <!-- Right Butte Gradient -->
+    <linearGradient id="butteGradRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E4466"/>
+      <stop offset="50%" stop-color="#1B2B42"/>
+      <stop offset="100%" stop-color="#0B121E"/>
+    </linearGradient>
+
+    <!-- Foreground Desert Floor Gradient -->
+    <linearGradient id="desertFloorGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#132135"/>
+      <stop offset="25%" stop-color="#0C1523"/>
+      <stop offset="70%" stop-color="#070D16"/>
+      <stop offset="100%" stop-color="#04070D"/>
+    </linearGradient>
+
+    <!-- Cyan Flare Filter -->
+    <filter id="glowEffect" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="1440" height="680" fill="url(#skyGrad)"/>
+
+  <!-- Star Field -->
+  <g fill="#FFFFFF">
+    <!-- Bright Stars -->
+    <circle cx="120" cy="80" r="1.5" opacity="0.9"/>
+    <circle cx="210" cy="140" r="1" opacity="0.75"/>
+    <circle cx="340" cy="60" r="1.8" opacity="0.95"/>
+    <circle cx="480" cy="110" r="1.2" opacity="0.8"/>
+    <circle cx="590" cy="75" r="1" opacity="0.7"/>
+    <circle cx="720" cy="50" r="2" opacity="0.95"/>
+    <circle cx="850" cy="130" r="1.2" opacity="0.75"/>
+    <circle cx="980" cy="90" r="1.5" opacity="0.9"/>
+    <circle cx="1120" cy="45" r="1.8" opacity="0.85"/>
+    <circle cx="1260" cy="115" r="1" opacity="0.7"/>
+    <circle cx="1380" cy="70" r="1.6" opacity="0.9"/>
+
+    <!-- Faint Stars -->
+    <circle cx="75" cy="180" r="0.7" opacity="0.5"/>
+    <circle cx="160" cy="220" r="0.8" opacity="0.6"/>
+    <circle cx="280" cy="160" r="0.6" opacity="0.4"/>
+    <circle cx="410" cy="210" r="0.8" opacity="0.55"/>
+    <circle cx="530" cy="170" r="0.7" opacity="0.45"/>
+    <circle cx="670" cy="140" r="0.9" opacity="0.65"/>
+    <circle cx="790" cy="200" r="0.7" opacity="0.5"/>
+    <circle cx="920" cy="165" r="0.8" opacity="0.6"/>
+    <circle cx="1040" cy="225" r="0.6" opacity="0.45"/>
+    <circle cx="1180" cy="175" r="0.8" opacity="0.55"/>
+    <circle cx="1320" cy="210" r="0.7" opacity="0.5"/>
+    <circle cx="1410" cy="160" r="0.8" opacity="0.6"/>
+
+    <!-- Micro Stars -->
+    <circle cx="90" cy="110" r="0.5" opacity="0.35"/>
+    <circle cx="240" cy="95" r="0.5" opacity="0.4"/>
+    <circle cx="390" cy="120" r="0.5" opacity="0.35"/>
+    <circle cx="630" cy="90" r="0.5" opacity="0.4"/>
+    <circle cx="770" cy="105" r="0.5" opacity="0.35"/>
+    <circle cx="890" cy="70" r="0.5" opacity="0.4"/>
+    <circle cx="1070" cy="130" r="0.5" opacity="0.35"/>
+    <circle cx="1220" cy="85" r="0.5" opacity="0.4"/>
+  </g>
+
+  <!-- Glowing Stellar Star -->
+  <g transform="translate(1010, 110)">
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#38BDF8" stroke-width="0.8" opacity="0.85"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#38BDF8" stroke-width="0.8" opacity="0.85"/>
+    <circle cx="0" cy="0" r="1.8" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Twilight Atmospheric Glow Layer -->
+  <rect y="250" width="1440" height="300" fill="url(#twilightGlow)"/>
+
+  <!-- Distant Mountain Horizon Silhouette -->
+  <path d="M0,490 Q220,475 440,485 T880,480 T1320,485 L1440,490 L1440,550 L0,550 Z" fill="url(#distantRidgeGrad)" opacity="0.6"/>
+
+  <!-- Left Iconic Butte (West Mitten Butte silhouette) -->
+  <g id="leftButte">
+    <!-- Base Slope -->
+    <path d="M120,535 L190,470 L220,440 L235,410 L285,410 L295,445 L320,475 L380,535 Z" fill="url(#butteGradLeft)"/>
+    <!-- Central Tower Pinnacle -->
+    <path d="M235,412 L242,350 L248,340 L275,340 L280,352 L285,412 Z" fill="url(#butteGradLeft)"/>
+    <!-- Left Thumb / Spire -->
+    <path d="M205,445 L210,400 L220,400 L224,440 Z" fill="url(#butteGradLeft)"/>
+  </g>
+
+  <!-- Center Distant Mesa -->
+  <g id="centerMesa">
+    <path d="M560,530 L600,480 L620,460 L650,460 L670,485 L710,530 Z" fill="url(#centerButteGrad)"/>
+    <path d="M625,460 L630,440 L645,440 L650,460 Z" fill="url(#centerButteGrad)"/>
+  </g>
+
+  <!-- Right Iconic Butte (East Mitten / Merrick Butte) -->
+  <g id="rightButte">
+    <path d="M820,535 L870,470 L895,435 L985,435 L1010,470 L1070,535 Z" fill="url(#butteGradRight)"/>
+    <path d="M898,435 L905,365 L915,355 L965,355 L975,368 L982,435 Z" fill="url(#butteGradRight)"/>
+  </g>
+
+  <!-- Far Right Mesa Silhouette -->
+  <path d="M1240,535 L1270,490 L1310,475 L1440,470 L1440,535 Z" fill="url(#centerButteGrad)" opacity="0.8"/>
+
+  <!-- Foreground Desert Floor Layer & Dunes Contours -->
+  <path d="M0,520 Q360,505 720,525 T1440,515 L1440,680 L0,680 Z" fill="url(#desertFloorGrad)"/>
+  <path d="M0,560 Q400,545 800,570 T1440,555 L1440,680 L0,680 Z" fill="#060A12" opacity="0.75"/>
+  <path d="M0,610 Q500,595 1000,620 T1440,605 L1440,680 L0,680 Z" fill="#03060A"/>
+
+  <!-- Subtle Cyan Beacon Markers (as seen in Figma) -->
+  <g transform="translate(180, 570)" filter="url(#glowEffect)">
+    <circle cx="0" cy="0" r="2.5" fill="#22D3EE"/>
+    <line x1="0" y1="5" x2="0" y2="25" stroke="#22D3EE" stroke-width="1.5" stroke-dasharray="2 2" opacity="0.7"/>
+    <circle cx="0" cy="30" r="1.5" fill="#22D3EE" opacity="0.6"/>
+  </g>
+
+  <g transform="translate(1220, 580)" filter="url(#glowEffect)">
+    <circle cx="0" cy="0" r="2.5" fill="#22D3EE"/>
+    <line x1="0" y1="5" x2="0" y2="25" stroke="#22D3EE" stroke-width="1.5" stroke-dasharray="2 2" opacity="0.7"/>
+    <circle cx="0" cy="30" r="1.5" fill="#22D3EE" opacity="0.6"/>
+  </g>
+</svg>

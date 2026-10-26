@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" preserveAspectRatio="xMidYMid slice" fill="none">
+  <defs>
+    <linearGradient id="extremeSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#02040A"/>
+      <stop offset="50%" stop-color="#0B1528"/>
+      <stop offset="100%" stop-color="#162947"/>
+    </linearGradient>
+    <linearGradient id="peakGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3250"/>
+      <stop offset="100%" stop-color="#070D17"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="480" fill="url(#extremeSky)"/>
+  <!-- Moon / Celestial glow -->
+  <circle cx="460" cy="110" r="45" fill="#38BDF8" opacity="0.12"/>
+  <circle cx="460" cy="110" r="18" fill="#F0F9FF" opacity="0.95"/>
+  <!-- Rugged Mountain Peaks -->
+  <polygon points="0,480 80,310 180,380 290,240 420,360 520,290 600,340 600,480" fill="url(#peakGrad)"/>
+  <polygon points="120,480 250,330 340,420 480,270 600,400 600,480" fill="#0A111C" opacity="0.9"/>
+  <!-- Climber silhouette on ridge with headlamp flare -->
+  <circle cx="288" cy="238" r="4" fill="#02040A"/>
+  <circle cx="292" cy="235" r="3" fill="#22D3EE"/>
+  <line x1="292" y1="235" x2="350" y2="260" stroke="#22D3EE" stroke-width="2" opacity="0.6"/>
+</svg>

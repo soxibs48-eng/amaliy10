@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" preserveAspectRatio="xMidYMid slice" fill="none">
+  <defs>
+    <linearGradient id="dunesSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141E30"/>
+      <stop offset="60%" stop-color="#243B55"/>
+      <stop offset="100%" stop-color="#4B5366"/>
+    </linearGradient>
+    <linearGradient id="duneCrest1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#735A4C"/>
+      <stop offset="50%" stop-color="#4E3D35"/>
+      <stop offset="100%" stop-color="#271F1B"/>
+    </linearGradient>
+    <linearGradient id="duneCrest2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8C7160"/>
+      <stop offset="60%" stop-color="#554439"/>
+      <stop offset="100%" stop-color="#1F1814"/>
+    </linearGradient>
+    <linearGradient id="duneForeground" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A2D25"/>
+      <stop offset="100%" stop-color="#120D0A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="480" fill="url(#dunesSky)"/>
+
+  <!-- Distant Dusk Hills -->
+  <path d="M0,220 Q160,190 320,215 T600,210 L600,300 L0,300 Z" fill="#3D4556" opacity="0.7"/>
+
+  <!-- Graceful Dune Ridge 1 -->
+  <path d="M0,260 Q150,230 310,290 T600,320 L600,480 L0,480 Z" fill="url(#duneCrest1)"/>
+
+  <!-- Main Sweeping S-Curve Dune -->
+  <path d="M600,250 C450,290 320,340 180,410 C100,450 40,470 0,480 L600,480 Z" fill="url(#duneCrest2)"/>
+
+  <!-- Deep Foreground Dune Shadow -->
+  <path d="M180,410 C280,350 420,310 600,280 L600,480 L0,480 Z" fill="url(#duneForeground)" opacity="0.85"/>
+
+  <!-- Stars in sky -->
+  <circle cx="80" cy="60" r="1.2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="210" cy="90" r="1.5" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="360" cy="50" r="1" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="490" cy="80" r="1.3" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="530" cy="40" r="1" fill="#FFFFFF" opacity="0.6"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" fill="none">
+  <defs>
+    <linearGradient id="bgMarcus" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#262F3C"/>
+      <stop offset="100%" stop-color="#141B24"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="480" fill="url(#bgMarcus)"/>
+  <!-- Ambient cafe/workshop warm glow -->
+  <circle cx="200" cy="80" r="160" fill="#F59E0B" opacity="0.08"/>
+  <path d="M90,480 L90,360 Q90,310 150,290 L250,290 Q310,310 310,360 L310,480 Z" fill="#3B4656"/>
+  <path d="M175,290 L175,230 L225,230 L225,290 Z" fill="#D49A72"/>
+  <ellipse cx="200" cy="180" rx="54" ry="65" fill="#E8B088"/>
+  <!-- Hair & subtle beard -->
+  <path d="M145,160 C140,105 180,95 200,95 C220,95 260,105 255,160 Z" fill="#2B1D16"/>
+  <path d="M160,205 C170,240 230,240 240,205 C240,230 225,248 200,248 C175,248 160,230 160,205 Z" fill="#2B1D16" opacity="0.45"/>
+</svg>

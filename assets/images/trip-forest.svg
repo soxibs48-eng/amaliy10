@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" preserveAspectRatio="xMidYMid slice" fill="none">
+  <defs>
+    <linearGradient id="forestSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#040A12"/>
+      <stop offset="100%" stop-color="#0F2432"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="480" fill="url(#forestSky)"/>
+  <!-- Layered Pine Forest -->
+  <g fill="#0A1822" opacity="0.7">
+    <polygon points="40,240 60,200 80,240 70,240 85,270 55,270"/>
+    <polygon points="120,230 145,180 170,230 160,230 180,270 135,270"/>
+    <polygon points="260,240 285,190 310,240 300,240 320,280 275,280"/>
+    <polygon points="420,230 450,170 480,230 470,230 495,270 445,270"/>
+  </g>
+  <g fill="#030A10">
+    <polygon points="10,480 100,210 190,480"/>
+    <polygon points="160,480 250,240 340,480"/>
+    <polygon points="310,480 410,190 510,480"/>
+    <polygon points="470,480 550,230 630,480"/>
+  </g>
+  <!-- Bioluminescent orbs / fireflies -->
+  <circle cx="160" cy="360" r="4" fill="#22D3EE" opacity="0.9"/>
+  <circle cx="290" cy="320" r="3" fill="#38BDF8" opacity="0.8"/>
+  <circle cx="380" cy="390" r="4.5" fill="#34D399" opacity="0.85"/>
+  <circle cx="480" cy="340" r="3" fill="#22D3EE" opacity="0.75"/>
+</svg>

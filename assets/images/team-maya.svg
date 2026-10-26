@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" fill="none">
+  <defs>
+    <linearGradient id="bgMaya" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A202C"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="480" fill="url(#bgMaya)"/>
+  <!-- Figure: Maya in cozy turtleneck -->
+  <path d="M100,480 L100,350 Q100,300 160,280 L240,280 Q300,300 300,350 L300,480 Z" fill="#111827"/>
+  <!-- High knit collar -->
+  <rect x="170" y="240" width="60" height="45" rx="10" fill="#1F2937"/>
+  <ellipse cx="200" cy="180" rx="50" ry="60" fill="#E2A684"/>
+  <!-- Textured hair bun -->
+  <circle cx="200" cy="95" r="30" fill="#1E1714"/>
+  <path d="M150,170 C145,115 180,105 200,105 C220,105 255,115 250,170 Z" fill="#1E1714"/>
+</svg>

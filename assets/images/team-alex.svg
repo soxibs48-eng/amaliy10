@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" fill="none">
+  <defs>
+    <linearGradient id="bgAlex" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CBD5E1"/>
+      <stop offset="50%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+    <linearGradient id="shirtAlex" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="skinAlex" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with architectural loft window feel -->
+  <rect width="400" height="480" fill="url(#bgAlex)"/>
+  <!-- Window frames -->
+  <line x1="80" y1="0" x2="80" y2="480" stroke="#FFFFFF" stroke-width="6" opacity="0.4"/>
+  <line x1="200" y1="0" x2="200" y2="480" stroke="#FFFFFF" stroke-width="6" opacity="0.4"/>
+  <line x1="320" y1="0" x2="320" y2="480" stroke="#FFFFFF" stroke-width="6" opacity="0.4"/>
+  <line x1="0" y1="160" x2="400" y2="160" stroke="#FFFFFF" stroke-width="6" opacity="0.4"/>
+  <line x1="0" y1="320" x2="400" y2="320" stroke="#FFFFFF" stroke-width="6" opacity="0.4"/>
+
+  <!-- Stylized Figure: Alex, Founder -->
+  <!-- Torso & Navy T-shirt -->
+  <path d="M110,480 L110,360 Q110,310 160,290 L240,290 Q290,310 290,360 L290,480 Z" fill="url(#shirtAlex)"/>
+  <!-- Neck -->
+  <path d="M175,290 L175,230 L225,230 L225,290 Z" fill="#E2A77A"/>
+  <!-- Head & Jaw -->
+  <ellipse cx="200" cy="180" rx="55" ry="68" fill="#F3BE96"/>
+  <!-- Short Trimmed Hair -->
+  <path d="M142,170 C140,110 180,95 200,95 C220,95 260,110 258,170 C245,120 230,112 200,112 C170,112 155,120 142,170 Z" fill="#33241A"/>
+  <!-- Glasses -->
+  <rect x="160" y="160" width="30" height="20" rx="6" fill="none" stroke="#1E293B" stroke-width="3.5"/>
+  <rect x="210" y="160" width="30" height="20" rx="6" fill="none" stroke="#1E293B" stroke-width="3.5"/>
+  <line x1="190" y1="170" x2="210" y2="170" stroke="#1E293B" stroke-width="3"/>
+  <!-- Confident Smile -->
+  <path d="M185,210 Q200,222 215,210" stroke="#9A3412" stroke-width="3" stroke-linecap="round" fill="none"/>
+</svg>
